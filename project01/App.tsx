@@ -1,14 +1,15 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import ActiveButton from './components/ActiveButton'
 
-const App = () => {
+export default function App() {
   return (
     <View>
-      <Text>App</Text>
+      <Text>
+        <ActiveButton/>
+      </Text>
     </View>
   )
 }
-
-export default App
 
 const styles = StyleSheet.create({})
